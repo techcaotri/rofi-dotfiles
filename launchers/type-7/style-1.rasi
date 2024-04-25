@@ -9,19 +9,21 @@
 
 /*****----- Configuration -----*****/
 configuration {
-	modi:                       "drun,run,filebrowser,window";
+	modi:                       "drun,run,filebrowser,window,shortcut:/home/tripham/.dotfiles/rofi/scripts/my_rofi_shortcut,emoji:/home/tripham/.dotfiles/rofi/scripts/rofi_emoji.sh";
     show-icons:                 true;
     display-drun:               "";
     display-run:                "";
     display-filebrowser:        "";
     display-window:             "";
+    display-shortcut:           "גּ";
+    display-emoji:              "☻";
 	drun-display-format:        "{name}";
 	window-format:              "{w} · {c} · {t}";
 }
 
 /*****----- Global Properties -----*****/
 * {
-    font:                        "JetBrains Mono Nerd Font 10";
+    font:                        "JetBrains Mono Nerd Font 9";
     background:                  #11092D;
     background-alt:              #281657;
     foreground:                  #FFFFFF;

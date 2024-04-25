@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cat ~/.config/rofi/rofi-shortcuts/rofi-shortcuts.conf
