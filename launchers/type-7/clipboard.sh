@@ -15,6 +15,6 @@ theme='style-1'
 
 ## Run
 rofi \
-    -show window \
+    -show clipboard \
     -theme ${dir}/${theme}.rasi \
     -dpi 192

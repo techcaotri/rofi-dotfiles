@@ -9,12 +9,13 @@
 
 /*****----- Configuration -----*****/
 configuration {
-	modi:                       "drun,run,filebrowser,window,shortcut:/home/tripham/.dotfiles/rofi/scripts/my_rofi_shortcut,emoji:/home/tripham/.dotfiles/rofi/scripts/rofi_emoji.sh";
+	modi:                       "drun,run,filebrowser,window,clipboard:greenclip print,shortcut:/home/tripham/.dotfiles/rofi/scripts/my_rofi_shortcut,emoji:/home/tripham/.dotfiles/rofi/scripts/rofi_emoji.sh";
     show-icons:                 true;
     display-drun:               "";
-    display-run:                "";
+    display-run:                "";
     display-filebrowser:        "";
     display-window:             "";
+    display-clipboard:          "󱉬";
     display-shortcut:           "גּ";
     display-emoji:              "☻";
 	drun-display-format:        "{name}";
